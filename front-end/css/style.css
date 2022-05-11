@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 0.5rem;
+    
+}
+
+#brandLink {
+
+    text-decoration: none;
+    color: #3cd070;
+    
+
+}
+
+#brandIcon  {
+
+    text-align: center;
+    font-size: 40px;
+}
+#navBar {
+    text-align: center;
+    padding: 1.5rem;
+    
+
+}
+
+#navBar li {
+    display: inline;
+    padding: 1rem;
+    font-size: 20px;
+
+}
+
+
+
+#navBar {
+
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #3cd070;
+}
+
+#contact {
+    background-color: rgba(70, 68, 68, 0.5);
+}
+
+#contact h2 {
+
+    color: ghostwhite;
+    font-size: 40px;
+}
+
+#fname, #email {
+    width: 80%;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 0.5rem;
+}
+
+
+#msg {
+
+    width: 100%;
+    height: 240px;
+    border: none;
+
+    font-size: 20px;
+    padding-top: 0.5rem;
+resize: none;
+    padding-left: 0.5rem;
+
+}
+
+#contact input[type="submit"] {
+    width: 40%;
+    border: none;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#coreMenuHome {
+    color: gainsboro;
+    width: 100%;
+   
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  text-align: center;
+  
+   
+
+}
+
+#coreMenuHome h2 {
+
+    font-size: 50px;
+
+}
+
+
+#coreMenuHome input[type="button"] {
+    margin-top: 2rem;
+    border: none;
+    width: 40%;
+    height: 50px;
+    cursor: pointer;
+    background-color:    rgba(126, 124, 124, 0.397);
+    border-radius: 10px;
+    font-size: 25px;
+    color: ghostwhite;
+    
+}
+
+#coreMenuHome input[type="button"]:hover, footer img:hover  {
+   transform: scale(1.1);
+    
+}
+
+#aboutSection img {
+    float: right;
+    
+}
+
+#aboutSection h2 {
+    font-size: 35px;
+}
+
+#aboutSection p {
+    font-size: 19px;
+}
+
+footer {
+    
+    background-color: rgba(0, 0, 0, 0.527);
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  
+}
+
+
+footer ul li {
+
+    display: inline;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+
+ #aboutSection {
+     padding: 3rem;
+ }
+
+ #aboutSection img, #aboutSection audio {
+    display: none;
+}
+
+
+ 
+@media only screen and (min-width:675px) {
+    #coreMenuHome input[type="button"] {
+        width: 30%;
+     
+        
+    }
+    #coreMenuHome h2 {
+
+        font-size: 50px;
+    
+    }
+
+    #aboutSection img, #aboutSection audio {
+        display: block;
+    }
+}
+
+
+
+@media only screen and (min-width:850px) {
+    #coreMenuHome input[type="button"] {
+        width: 15%;
+     
+        
+    }
+
+    #coreMenuHome h2 {
+
+        font-size: 60px;
+    
+    }
+}
